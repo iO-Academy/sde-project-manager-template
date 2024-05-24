@@ -17,20 +17,22 @@
         <h2 class="text-4xl font-bold mb-2">Projects</h2>
         <h4 class="text-2xl">Filter projects by Client:</h4>
         <form>
-            <select class="px-2 py-1 rounded border">
+            <select class="px-3 py-1 rounded border">
+                <option>All Clients</option>
                 <option>Client 1</option>
                 <option>Client 2</option>
                 <option>Client 3</option>
             </select>
-            <input type="submit" value="Apply">
+            <input type="submit" value="Apply" class="rounded bg-green-100 px-3 py-1">
         </form>
-        <section>
-            <div>Client 1</div>
-            <div>Client 2</div>
-            <div>Client 3</div>
+        <section class="flex justify-start gap-5 mt-3">
+            <div class="rounded-lg border p-4 py-6 text-4xl font-bold w-1/4 bg-slate-300">Client 1</div>
+            <div class="rounded-lg border border-red-600 p-4 py-6 text-4xl font-bold w-1/4 bg-red-300">Client 2</div>
+            <div class="rounded-lg border p-4 py-6 text-4xl font-bold w-1/4 bg-slate-300">Client 3</div>
+            <div class="rounded-lg border p-4 py-6 text-4xl font-bold w-1/4 bg-slate-300">Client 4</div>
         </section>
     </main>
-    <footer>
+    <footer class="border-top border-slate-300">
         <p>&copy; Copyright iO Academy 2024</p>
     </footer>
 </body>
